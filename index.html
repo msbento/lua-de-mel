@@ -5,63 +5,195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Nossa Lua de Mel - Austrália e Nova Zelândia</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@400;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        h1, h2 { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Cormorant Garamond', serif; background-color: #FFF8F0; color: #2C4C74; }
+        h1 { font-family: 'Great Vibes', cursive; color: #2C4C74; }
+        h2, h3, .uppercase-serif { font-family: 'Cinzel', serif; color: #2C4C74; }
     </style>
 </head>
-<body class="bg-stone-50 text-stone-800">
+<body class="">
 
-    <header class="py-20 text-center bg-white border-b border-stone-200">
-        <h1 class="text-5xl md:text-6xl mb-4 text-stone-900">Manuel & [Nome da Noiva]</h1>
-        <p class="text-xl tracking-widest uppercase text-stone-500">[Data do Casamento]</p>
+    <header class="pt-20 pb-8 text-center relative">
+        <h1 class="text-6xl md:text-8xl mb-8 tracking-wide">Patricia &nbsp;&&nbsp; Manuel</h1>
+        <p class="text-2xl tracking-[0.2em] uppercase font-[Cinzel] text-[#2C4C74] mb-12">11 de Abril de 2026</p>
+        <div class="w-24 h-1 mx-auto border-t border-dashed border-[#2C4C74]"></div>
     </header>
 
-    <section class="max-w-3xl mx-auto px-6 py-16 text-center">
-        <h2 class="text-3xl mb-6">A Nossa Maior Aventura</h2>
-        <p class="text-lg leading-relaxed text-stone-600">
+    <section class="max-w-3xl mx-auto px-6 pt-8 pb-16 text-center">
+        <h2 class="text-3xl mb-6 uppercase tracking-wider">A Nossa Maior Aventura</h2>
+        <p class="text-xl leading-relaxed text-justify">
             Depois de celebrarmos o nosso amor com todos vocês, partimos para uma experiência única na vida: a descoberta da Austrália e da Nova Zelândia. Mais do que objetos, queremos colecionar memórias que guardaremos para sempre. Esta é a nossa lista de "experiências" para a viagem dos nossos sonhos.
         </p>
     </section>
 
-    <section class="max-w-6xl mx-auto px-6 py-12">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            
-            <div class="bg-white rounded-lg overflow-hidden shadow-sm border border-stone-100 transition hover:shadow-md">
-                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Milford Sound" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2">Cruzeiro em Milford Sound</h3>
-                    <p class="text-stone-600 text-sm mb-4">Navegar pelos fiordes majestosos da Nova Zelândia, entre cascatas e picos imponentes.</p>
-                    <span class="text-stone-400 text-xs font-medium uppercase tracking-wider italic">Sugestão: 50€</span>
+    <section class="max-w-6xl mx-auto px-6 py-12 space-y-24">
+        
+        <!-- Activity 1: Sydney -->
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1523059623039-a9ed027e7fad?q=80&w=1664&auto=format&fit=crop" alt="Sydney Opera House" class="w-full h-80 object-cover">
                 </div>
             </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Sydney: Ícones e Baía</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Sydney, a jóia da costa australiana, recebe-nos com a sua baía deslumbrante e monumentos mundialmente famosos. Começaremos com uma <strong>visita guiada aos bastidores da Opera House</strong> para conhecermos os segredos deste ícone arquitetónico, seguida da emocionante escalada do <strong>BridgeClimb na Harbour Bridge</strong> para vermos a cidade do topo. Apanharemos o <strong>ferry para Manly</strong> para apreciar a costa a partir do mar e dedicaremos uma tarde a visitar o <strong>Taronga Zoo</strong>. À noite, celebraremos o início da viagem com um <strong>jantar especial no bairro histórico de The Rocks</strong>.
+                </p>
+            </div>
+        </div>
 
-            <div class="bg-white rounded-lg overflow-hidden shadow-sm border border-stone-100 transition hover:shadow-md">
-                <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=800&q=80" alt="Great Barrier Reef" class="w-full h-56 object-cover">
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2">Snorkeling na Grande Barreira</h3>
-                    <p class="text-stone-600 text-sm mb-4">Explorar o ecossistema marinho mais famoso do mundo na costa australiana.</p>
-                    <span class="text-stone-400 text-xs font-medium uppercase tracking-wider italic">Sugestão: 75€</span>
+        <!-- Activity 2: Melbourne -->
+        <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1595434971780-79d5c20c5090?w=800&auto=format&fit=crop&q=80&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWVsYm91cm5lfGVufDB8fDB8fHww" alt="Melbourne Skyline" class="w-full h-80 object-cover">
                 </div>
             </div>
-
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Melbourne: Cultura e Gastronomia</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Melbourne é a capital cultural e do café da Austrália, famosa pelas suas ruelas artísticas e estilo de vida vibrante. Vamos mergulhar na cena gastronómica com um tour de degustação no histórico <strong>Queen Victoria Market</strong> e desfrutar de um <strong>brunch numa das icónicas "laneways"</strong> escondidas da cidade. Subiremos ao <strong>Melbourne Skydeck</strong> para uma vista vertiginosa do horizonte urbano e terminaremos com um inesquecível <strong>jantar à beira-mar em St Kilda</strong>.
+                </p>
             </div>
+        </div>
+
+        <!-- Activity 3: Queenstown -->
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1706795331036-77f5a7d47b91?q=80&w=800&auto=format&fit=crop" alt="Queenstown" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Queenstown: A Capital da Aventura</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Situada nas margens do Lago Wakatipu e cercada por montanhas majestosas, Queenstown é o coração da adrenalina na Nova Zelândia. Subiremos a <strong>Skyline Gondola</strong> para apreciar a paisagem e desceremos a pista de <strong>Luge</strong> a toda a velocidade. Embarcaremos no histórico <strong>cruzeiro a vapor TSS Earnslaw</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Activity 4: Wanaka -->
+        <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1715925779667-288ace3d50fa?q=80&w=800&auto=format&fit=crop" alt="Lake Wanaka Tree" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Wanaka: Relaxamento e Aventura</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Wanaka oferece um refúgio de tranquilidade alpina com paisagens de cortar a respiração. Exploraremos as águas cristalinas num <strong>passeio de kayak</strong> até à famosa árvore solitária e desafiaremos a nossa mente no intrigante <strong>Puzzling World</strong>. Para ter a melhor perspectiva desta região incrível, faremos um <strong>voo panorâmico</strong> sobre os picos nevados e glaciares dos Alpes do Sul.
+                </p>
+            </div>
+        </div>
+
+        <!-- Activity 5: Lake Tekapo -->
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1712786922257-4c899c36659a?q=80&w=800&auto=format&fit=crop" alt="Church of the Good Shepherd" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Lake Tekapo: Céu Estrelado</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    O Lago Tekapo é um santuário de tranquilidade famoso pelas suas águas azul-turquesa e céus noturnos imaculados. Vamos maravilhar-nos com o universo numa sessão exclusiva de <strong>Stargazing no Mount John Observatory</strong>, localizado numa das maiores reservas de céu escuro do mundo. Durante o dia, recarregaremos baterias nas relaxantes piscinas termais de <strong>Tekapo Springs</strong> e saborearemos a autêntica gastronomia japonesa com um jantar no aclamado <strong>Kohan Restaurant</strong>, com vista para o lago.
+                </p>
+            </div>
+        </div>
+
+        <!-- Activity 6: Christchurch -->
+        <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1582844448001-a2272e2e2f65?q=80&w=800&auto=format&fit=crop" alt="Christchurch Tram" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Christchurch: A Cidade Jardim</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Christchurch, a vibrante "Cidade Jardim", combina a elegância clássica com uma reconstrução inovadora. Embarcaremos num passeio romântico e tradicional de <strong>Punting no Rio Avon</strong>, deslizando suavemente pelos jardins botânicos. Exploraremos os sabores locais com um almoço no movimentado <strong>Riverside Market</strong> e subiremos ao topo do <strong>Christchurch Gondola</strong> para desfrutar de vistas panorâmicas deslumbrantes sobre a cidade, as planícies de Canterbury e os Alpes do Sul à distância.
+                </p>
+            </div>
+        </div>
+
+        <!-- Activity 7: Kaikoura -->
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://plus.unsplash.com/premium_photo-1708433276524-739a74000241?q=80&w=800&auto=format&fit=crop" alt="Whale Watching" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Kaikoura: Baleias e Vida Marinha</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Kaikoura é o palco de um dos ecossistemas marinhos mais ricos do planeta, onde as montanhas encontram o mar. Faremos um inesquecível passeio de <strong>Whale Watch</strong> para observar de perto os majestosos cachalotes gigantes no seu habitat natural. Para uma conexão ainda mais próxima, participaremos na experiência de <strong>Dolphin Encounter</strong>, nadando com golfinhos em oceano aberto. Terminaremos o dia a saborear marisco fresquíssimo, incluindo o famoso <strong>crayfish de Kaikoura</strong>, num restaurante local à beira-mar.
+                </p>
+            </div>
+        </div>
+
+         <!-- Activity 8: Wellington -->
+         <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1639508693225-02abb67ecf0f?q=80&w=800&auto=format&fit=crop" alt="Wellington Cable Car" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Wellington: Capital Criativa</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Wellington é a pequena capital mais criativa do mundo, famosa pelo seu vento e pela sua atmosfera vibrante. Mergulharemos na história da Nova Zelândia no inovador museu <strong>Te Papa Tongarewa</strong> e subiremos as encostas da cidade a bordo do emblemático <strong>Wellington Cable Car</strong> para vistas sobre a baía. Descobriremos a magia do cinema com um <strong>tour exclusivo no Weta Workshop</strong>, onde a Terra Média ganhou vida, e terminaremos o dia com a gastronomia eclética de um jantar na famosa <strong>Cuba Street</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Activity 9: Rotorua and Hobbiton -->
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1760795887813-b2c61daaa47c?q=80&w=800&auto=format&fit=crop" alt="Hobbiton" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Rotorua e Hobbiton</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    Esta etapa é uma viagem ao coração da cultura Maori e à magia da fantasia. Visitaremos o encantador <strong>Hobbiton Movie Set</strong> para um passeio guiado e um almoço nas colinas do Condado. Em Rotorua, terra de geysers e lamas borbulhantes, viveremos uma autêntica <strong>noite cultural Maori com jantar Hangi</strong> tradicional. Para relaxar corpo e mente, desfrutaremos das águas termais terapêuticas num luxuoso banho no <strong>Polynesian Spa</strong> ou nas lamas curativas do <strong>Hell's Gate</strong>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Activity 10: Auckland -->
+        <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+            <div class="w-full md:w-1/2">
+                <div class="block overflow-hidden rounded-lg shadow-lg">
+                    <img src="https://plus.unsplash.com/premium_photo-1661963939186-973fd7a5c452?q=80&w=800&auto=format&fit=crop" alt="Auckland Sky Tower" class="w-full h-80 object-cover">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h3 class="text-3xl font-serif mb-4">Auckland: A Cidade das Velas</h3>
+                <p class=" text-lg leading-relaxed text-justify">
+                    A nossa grande aventura culmina em Auckland, a cosmopolita "Cidade das Velas", cercada por dois portos deslumbrantes. Subiremos ao topo da icónica <strong>Sky Tower</strong> para um jantar inesquecível no restaurante giratório com vistas de 360 graus. Exploraremos a história do país no imponente <strong>Auckland War Memorial Museum</strong> e apanharemos o ferry para um dia de luxo com um <strong>tour de vinhos e almoço gourmet em Waiheke Island</strong>, celebrando o fim perfeito da nossa lua de mel.
+                </p>
+            </div>
+        </div>
+
     </section>
 
-    <footer class="bg-stone-900 text-white py-20 mt-12">
+    <footer class="bg-[#2C4C74] text-white py-20 mt-12">
         <div class="max-w-2xl mx-auto px-6 text-center">
             <h2 class="text-3xl mb-6">Como Contribuir</h2>
-            <p class="text-stone-400 mb-8 leading-relaxed">
+            <p class="text-blue-100 text-xl mb-12 leading-relaxed text-justify hyphens-auto">
                 Se desejarem mimar-nos com uma destas experiências, podem fazê-lo através de transferência bancária. Se quiserem, adicionem uma nota na transferência com a atividade que escolheram para sabermos que momento estamos a viver graças a vocês!
             </p>
-            <div class="bg-stone-800 p-8 rounded-lg inline-block text-left w-full md:w-auto">
-                <p class="text-sm uppercase tracking-widest text-stone-500 mb-2 font-semibold">O Nosso IBAN</p>
-                <p class="text-xl font-mono mb-4 tracking-tighter">PT50 0000 0000 0000 0000 0000 0</p>
-                <p class="text-sm uppercase tracking-widest text-stone-500 mb-2 font-semibold">Swift / BIC</p>
-                <p class="text-xl font-mono tracking-tighter">XXXXXXXXX</p>
+            <div class="bg-[#1E3A5F] p-8 rounded-lg inline-block text-left w-full md:w-auto">
+                <p class="text-sm uppercase tracking-widest  mb-2 font-semibold">O Nosso IBAN</p>
+                <p class="text-xl font-mono mb-4 tracking-tighter">PT50 0035 0836 0069 1574 7308 2</p>
+                <p class="text-sm uppercase tracking-widest  mb-2 font-semibold">Swift / BIC</p>
+                <p class="text-xl font-mono tracking-tighter">CGDIPTPL</p>
             </div>
-            <p class="mt-12 text-stone-500 text-sm italic">Com amor, Manuel & [Nome]</p>
+            <p class="mt-12  text-sm italic">Com amor, Patrícia & Manuel</p>
         </div>
     </footer>
 
